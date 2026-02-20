@@ -66,10 +66,23 @@
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    overflow-x: hidden;
+  .feature-meal-page {
+    max-width: 100%;
+
     width: 100%;
-    margin: 0 auto;
+    padding: 0px 10px;
+    margin: 0;
+  }
+
+  .header-container {
+    width: 100%;
+    padding: 0 10px;
+    background-color: red;
+  }
+
+  .popular-catogories .catogorie img {
+    width: 100%;
+    height: auto;
   }
 
   .featured-hero {
@@ -79,6 +92,10 @@
   .search {
     position: absolute;
     left: 140px;
+    background-color: blue;
+    color: white;
+    width: 80%;
+    left: 70px;
   }
 
   .popular-categories-section {
