@@ -164,7 +164,7 @@
     position: absolute;
     left: 140px;
     width: 80%;
-    left: 70px;
+    left: 50px;
     top: 620px;
   }
 
@@ -184,7 +184,7 @@
   }
 
   .catogorie {
-    width: 90%;
+    width: 80%;
     max-width: 500px;
     margin: auto;
     text-align: center;
@@ -199,11 +199,10 @@
 
   .food-name {
     width: 100%;
-    margin-top: 10px;
   }
 
   .categorie-food-name {
-    font-size: 20px;
+    font-size: 16px;
   }
   .chef-special-menu-container {
     flex-direction: column;
@@ -232,11 +231,11 @@
   }
 
   .special-menu-description h3 {
-    font-size: 25px;
+    font-size: 16px;
   }
 
   .special-menu-description p {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .special-menu-price {
@@ -252,7 +251,7 @@
 
   .view-all-special a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
     color: lightskyblue;
     margin-bottom: 35px;
   }
