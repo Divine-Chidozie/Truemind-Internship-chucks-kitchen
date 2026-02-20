@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.sign-in-container {
+  width: 100%;
+  display: flex !important;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  position: relative;
+  width: 50%;
+  height: 600px;
+  background-image: url("/assets/images/sign-in-image.png");
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff7a18;
+  z-index: 1;
+  opacity: 0.55;
+}
+
+.hero-image h1,
+.hero-image p {
+  position: relative;
+  z-index: 2;
+}
+
+.sign-in-form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in-text {
+  font-family: "Island Moments", cursive;
+  color: #ff7a18;
+  font-weight: 400;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.sign-in-heading {
+  color: rgb(32, 32, 32);
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  padding: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0px;
+}
+
+label {
+  color: rgb(33, 33, 33);
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+input {
+  font-size: 14px;
+  padding: 7px 18px;
+  padding-left: 6px;
+  text-align: left;
+  outline: none;
+  border: 1px solid rgb(168, 165, 165);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.forget-password {
+  text-decoration: none;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: right;
+  color: rgb(68, 129, 166);
+}
+
+.forget-password:active {
+  color: rgb(68, 129, 166);
+}
+
+.forget-password:hover {
+  color: rgb(68, 129, 166);
+}
+
+.forget-password:visited {
+  color: rgb(68, 129, 166);
+}
+
+.submit {
+  background-color: #ff7a18;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid #ff7a18;
+}
+
+.submit:hover {
+  background-color: #ea7725fe;
+  border: 2px solid #ea7725fe;
+}
+
+.sign-in-options {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.sign-in-options-container {
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-link a {
+  background-color: sliver;
+  border: 1px solid rgb(168, 165, 165);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 7px 90px;
+  color: #030303;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.create-account {
+  font-size: 12px;
+  text-align: center;
+}
+
+.create-account-link {
+  color: rgb(68, 129, 166);
+  text-decoration: none;
+}
+
+/* ***** Footer Section ***** */
+footer {
+  background-color: rgb(91, 56, 39);
+  margin-top: -1px;
+  padding-top: 25px;
+}
+
+.footer {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.onboarding-logo {
+  font-size: 25px;
+  font-family: "Island Moments", cursive;
+  color: #ff7a18;
+}
+
+.footer-para {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.6;
+  width: 50%;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links h4 {
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.footer-nav-links,
+.quick-links ul {
+  list-style: none;
+}
+
+.footer-nav-links a,
+.tel,
+.mail,
+.contact-address,
+.quick-links ul li a {
+  color: rgba(245, 245, 245, 0.664);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.social-links li {
+  margin-top: 5px;
+}
+
+.footer-right-reserved {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 65px;
+}
+.footer-text {
+  color: rgba(245, 245, 245, 0.664);
+  font-size: 13px;
+}
+.footer-icon {
+  cursor: pointer;
+  width: 25px;
+  height: auto;
+}

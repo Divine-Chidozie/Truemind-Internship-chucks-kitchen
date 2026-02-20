@@ -1,0 +1,174 @@
+@media screen and (min-width: 300px) {
+  .sign-in-container {
+    display: block;
+  }
+  .hero-image {
+    display: none;
+  }
+
+  .hero {
+    margin-top: 10px;
+  }
+
+  .sign-in-text {
+    font-size: 30px;
+  }
+
+  input {
+    padding: 12px 40px;
+    padding: 7px;
+  }
+  .sign-in-heading {
+    font-size: 25px;
+    margin-top: -5px;
+  }
+
+  .google-link,
+  .facebook-link {
+    width: 100%;
+  }
+
+  .sign-in-link a {
+    font-size: 12px !important;
+  }
+
+  /* footer {
+    display: none;
+  } */
+}
+
+/* ***** Media Responsivenss Featured Male Pgae ***** */
+@media screen and (max-width: 981px) {
+  .featured-nav-logo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .featured-nav-logo,
+  .featured-nav-bar ul li a {
+    font-size: 14px;
+  }
+
+  .search {
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .featured-nav-bar,
+  .secondary-login-btn {
+    display: none;
+  }
+  .search {
+    background-color: green;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .featured-hero {
+    position: relative;
+  }
+
+  .search {
+    position: absolute;
+    left: 140px;
+  }
+
+  .popular-categories-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .popular-catogories {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .catogorie {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .catogorie img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .food-name {
+    margin-top: 10px;
+    width: 500px;
+  }
+
+  .categorie-food-name {
+    font-size: 20px;
+  }
+  .chef-special-menu-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .special-menu {
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .special-menu img {
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+  .menu-delight {
+    display: none;
+  }
+  .special-menu-description {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .special-menu-description h3 {
+    font-size: 25px;
+  }
+
+  .special-menu-description p {
+    font-size: 20px;
+  }
+
+  .special-menu-price {
+    margin: 0px 10px;
+  }
+
+  .view-all-special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .view-all-special a {
+    text-decoration: none;
+    font-size: 20px;
+    color: lightskyblue;
+    margin-bottom: 35px;
+  }
+
+  .footer-footer {
+    display: none;
+  }
+}
