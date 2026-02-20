@@ -97,6 +97,7 @@
     top: 60px;
     right: 0;
     background: white;
+    margin-top: -20px;
     width: 100%;
     text-align: center;
   }
@@ -104,6 +105,7 @@
   .featured-nav-bar ul {
     flex-direction: column;
     gap: 10px;
+
     padding: 20px 0;
   }
 
@@ -151,6 +153,11 @@
     display: block;
   }
 
+  .featured-hero-heading {
+    font-size: 30px !important;
+    width: 75%;
+    margin-bottom: 5px;
+  }
   .popular-catogories .catogorie img {
     width: 100%;
     height: auto;
@@ -164,7 +171,7 @@
     position: absolute;
     left: 140px;
     width: 80%;
-    left: 50px;
+    left: 45px;
     top: 620px;
   }
 
@@ -184,7 +191,7 @@
   }
 
   .catogorie {
-    width: 80%;
+    width: 90%;
     max-width: 500px;
     margin: auto;
     text-align: center;
