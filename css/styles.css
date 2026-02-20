@@ -11,9 +11,27 @@ body {
 
 .container {
   width: 100%;
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
   overflow-x: hidden;
+}
+
+.header-container {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Hide hamburger menu on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  display: block;
 }
 
 .onboarding-form-container {

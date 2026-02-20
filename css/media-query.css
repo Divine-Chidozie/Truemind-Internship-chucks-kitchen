@@ -31,10 +31,6 @@
   .sign-in-link a {
     font-size: 12px !important;
   }
-
-  /* footer {
-    display: none;
-  } */
 }
 
 /* ***** Media Responsivenss Featured Male Pgae ***** */
@@ -49,19 +45,34 @@
   .featured-nav-bar ul li a {
     font-size: 14px;
   }
-
-  .search {
-    background-color: red;
-  }
 }
 
 @media screen and (max-width: 875px) {
-  .featured-nav-bar,
+  .featured-nav-logo {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .hamburger {
+    display: flex;
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+
+  .featured-nav-bar {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background: white;
+    display: none; /* hide by default */
+  }
+
+  .featured-nav-bar.active {
+    display: block; /* show when clicked */
+  }
+
   .secondary-login-btn {
     display: none;
-  }
-  .search {
-    background-color: green;
   }
 }
 
@@ -70,12 +81,45 @@
     overflow-x: hidden;
   }
 
-  /* .feature-meal-page {
-    max-width: 100%;
+  .featured-nav-logo {
+    font-size: 16px;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hide nav by default */
+  .featured-nav-bar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: white;
     width: 100%;
-    padding: 0;
-    margin: 0;
-  } */
+    text-align: center;
+  }
+
+  .featured-nav-bar ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+  }
+
+  .featured-nav-bar ul li {
+    margin: 10px 0;
+  }
+
+  /* When active */
+  .featured-nav-bar.active {
+    display: block;
+  }
+
+  /* Hide login button on mobile */
+  .secondary-login-btn {
+    display: none;
+  }
 
   /* feature-meal-page full width */
   .feature-meal-page {
@@ -101,16 +145,6 @@
     width: 100%;
   }
 
-  /* .featured-meal-hero-img {
-    width: 100%;
-    overflow-x: hidden;
-  } */
-
-  /* .header-container {
-    width: 100%;
-    padding: 0 10px;
-  } */
-
   .featured-meal-hero-img img {
     width: 100%;
     height: auto;
@@ -129,10 +163,9 @@
   .search {
     position: absolute;
     left: 140px;
-    background-color: blue;
-    color: white;
     width: 80%;
     left: 70px;
+    top: 620px;
   }
 
   .popular-categories-section {
@@ -140,15 +173,6 @@
     flex-direction: column;
     width: 100%;
   }
-
-  /* .popular-catogories {
-    display: flex;
-    flex-direction: column;
-
-    margin: 0 auto;
-    width: 100%;
-    margin-top: 10px;
-  } */
 
   /* categories full width */
   .popular-catogories {
@@ -159,25 +183,12 @@
     padding: 0;
   }
 
-  /* .catogorie {
-    width: 500px;
-    margin: auto;
-    text-align: center;
-  } */
-
   .catogorie {
-    width: 100%;
+    width: 90%;
     max-width: 500px;
     margin: auto;
     text-align: center;
   }
-
-  /* .catogorie img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-  } */
 
   .catogorie img {
     width: 100%;
@@ -185,11 +196,6 @@
     object-fit: cover;
     display: block;
   }
-
-  /* .food-name {
-    margin-top: 10px;
-    width: 500px;
-  } */
 
   .food-name {
     width: 100%;
@@ -211,7 +217,8 @@
   }
 
   .special-menu img {
-    width: 500px;
+    /* width: 500px; */
+    width: 100%;
     height: 300px;
     object-fit: contain;
   }
@@ -245,7 +252,7 @@
 
   .view-all-special a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     color: lightskyblue;
     margin-bottom: 35px;
   }
