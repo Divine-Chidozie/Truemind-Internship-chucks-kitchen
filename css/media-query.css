@@ -163,6 +163,9 @@
     height: auto;
   }
 
+  .categories-heading {
+    margin-bottom: 20px;
+  }
   .featured-hero {
     position: relative;
   }
@@ -265,5 +268,101 @@
 
   .footer-footer {
     display: none;
+  }
+}
+
+/* ***** Media ResponsivenssMenu Listing Male Pgae ***** */
+@media screen and (max-width: 600px) {
+  .first-menu-list {
+    display: flex;
+    flex-direction: column; /* stack food items vertically */
+    gap: 15px; /* spacing between each card */
+  }
+
+  .food-menu {
+    display: flex;
+    flex-direction: row; /* image left, text + price right */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff; /* card background */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+  }
+
+  .food-menu img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  /* hide on mobile view */
+  .hide-mobile-edikaikong {
+    display: none;
+  }
+
+  /* show on mobile view */
+  .show-mobile-edikaikong {
+    display: flex;
+  }
+
+  /* hide on mobile-entree */
+  .hide-on-mobile-entree {
+    display: none;
+  }
+  /* show on mobile view */
+  .view-categories {
+    display: flex;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-size: 16px;
+    color: #1e88e5;
+  }
+
+  .heading-para-menu-pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .first-menu-heading-para {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+    padding-left: 10px;
+  }
+
+  .first-menu-heading-para h3 {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .first-menu-heading-para p {
+    font-size: 12px;
+    width: 80%;
+    margin: 0;
+  }
+
+  .first-menu-pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .first-menu-pricing small {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .plus-btn {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
   }
 }

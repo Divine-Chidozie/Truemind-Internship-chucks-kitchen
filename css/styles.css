@@ -490,6 +490,174 @@ button {
   margin-left: 0;
 }
 
+/* ***** Menu Listing Page Style ***** */
+.menu-list {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f3f4f6;
+}
+
+.menu-listing-img-container {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/images/menu-listing-homeimage.png");
+
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  color: white;
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+.menu-categories {
+  padding-top: 10px;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.menu-categories h2 {
+  font-size: 18px;
+}
+
+.menu-categoeries-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.active {
+  background-color: #ffe1ca;
+  padding: 10px;
+  border-inline-start-color: green; /* rememeber to add broder left color here*/
+}
+
+.menu-categoeries-list {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.popular-heading {
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 45px;
+  margin-bottom: 5px;
+}
+
+.menu-categorie-container {
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.first-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  gap: 20px;
+}
+
+.food-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 80%;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Hide on desktop view */
+.show-mobile-edikaikong {
+  display: none;
+}
+
+/* Hide on desktop view */
+.view-categories {
+  display: none;
+}
+
+.heading-para-menu-pricing {
+  background-color: white;
+  /* width: 294px; */
+  width: 80%;
+}
+.first-menu-heading-para,
+.first-menu-pricing {
+  background-color: white;
+}
+
+.first-menu-heading-para h3 {
+  font-size: 15px;
+  margin: 20px 0px 5px 15px;
+}
+
+.first-menu-heading-para p {
+  font-size: 13px;
+  margin: 0px 0px 10px 15px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.first-menu-pricing {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+}
+
+.plus-btn {
+  border-radius: 50%;
+}
+
+/* ***** Entrees Section ***** */
+
+.entree-section-heading {
+  font-size: 18px;
+  padding: 10px;
+  margin-left: 45px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.entree-list {
+  display: flex;
+}
+
+.entree-list-categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  margin-top: 65px;
+}
 /* ***** Responsive Media Query ***** */
 
 @media screen and (max-width: 900px) {

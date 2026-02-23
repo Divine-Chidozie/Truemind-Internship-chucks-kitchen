@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/media-query.css" />
+    <title>Menu Listing</title>
+  </head>
+  <body>
+    <!-- ===== MeNu Page Container ===== -->
+    <div class="container menu-list">
+      <header>
+        <div class="header-container">
+          <span class="featured-nav-logo">Chucks Kitchen</span>
+
+          <!-- Hamburger Button -->
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <nav class="featured-nav-bar" id="navMenu">
+            <ul>
+              <li><a href="/index.html">Home</a></li>
+              <li><a id="home" href="#">Explore</a></li>
+              <li><a href="#">My Orders</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+
+          <a class="secondary-login-btn" href="sign-in-screen.html">Login</a>
+        </div>
+      </header>
+
+      <!-- ===== Main Section ===== -->
+      <main>
+        <section class="featured-hero">
+          <div class="menu-listing-img-container">
+            <h1 class="featured-hero-heading">Chucks Kitchen</h1>
+            <p class="featured-para">
+              Chucks Kitchen Nigerian Home Cooking 4.8 (1.2k)
+            </p>
+          </div>
+        </section>
+
+        <!-- ===== Menu Categories Section ===== -->
+        <section>
+          <div class="menu-categories">
+            <h2>Menu Categories</h2>
+
+            <div class="menu-categoeries-list">
+              <p class="active list">Popular</p>
+              <p class="list">Jollof Rice & Entrees</p>
+              <p class="list">Swallow & Soups</p>
+              <p class="list">Grills & sides</p>
+              <p class="list">Beverages</p>
+              <p class="list">Desserts</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== Popular Section ===== -->
+        <section>
+          <div class="popular-categories-section">
+            <h2 class="popular-heading">Popular</h2>
+
+            <section class="menu-categorie-container">
+              <!-- first food menu container -->
+              <section class="first-menu-list first-menu">
+                <!-- jellof rice and fried chicken -->
+                <div class="food-menu first-menu-inner">
+                  <img
+                    src="/assets/images/jellof-delight.png"
+                    class="img"
+                    alt="Jellof Rice Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jollof Rice & Friend Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- eba and egusi soup -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/eba-and-egusi-soup.png"
+                    class="img"
+                    alt="Eba & Egusi Soup Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Eba & Egusi Soup (Goat Meat)</h3>
+                      <p>
+                        Hearty Egusi soup with goat meat, served with soft Eba.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pounded yam and edikaikong -->
+                <div class="food-menu hide-mobile-edikaikong">
+                  <img
+                    src="/assets/images/pounded-yam-and-edikaikong.jpg"
+                    class="img edikaikong"
+                    alt="Pounded Yam and Edikaikong Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Pounded Yam & Edikaikong</h3>
+                      <p>
+                        Traditional pounded yam with rich, leafy Edikaikong
+                        soup.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,800</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- show on mobile view -->
+                <div class="food-menu show-mobile-edikaikong">
+                  <img
+                    src="/assets/images/mobile-jellof-rice.png"
+                    class="img edikakong"
+                    alt="Pounded Yam and Edikaikong Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jellof Rice & Fried Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="view-categories">View all Categories</a>
+              </section>
+            </section>
+
+            <!-- ***** Second Menu Container -->
+            <section class="menu-categorie-container">
+              <!-- second food menu container -->
+              <section class="first-menu-list hide-mobile-edikaikong">
+                <!-- jellof rice and fried chicken -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/snail.jpg"
+                    class="img"
+                    alt="Snail Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Peppered Snail</h3>
+                      <p>
+                        Spicy and savory peppered snail, perfect as a starter.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>2,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- eba and egusi soup -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/grilled-tilapia-fish.jpg"
+                    class="img"
+                    alt="Grilled Tilapa Fish Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Grilled Tilapia Fish</h3>
+                      <p>
+                        Whole grilled tilapia seasoned with our special spices.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>4,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pounded yam and edikaikong -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/jellof-rice-&-chicken.png"
+                    class="img"
+                    alt="Jellof Rice and Chicken Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jellof Rice & Fried Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
+          </div>
+        </section>
+
+        <!-- ===== Jollof Rice and Entrees Section ===== -->
+        <section>
+          <div class="entree-section">
+            <h2 class="entree-section-heading">Jollof Rice & Entrees</h2>
+
+            <!-- ***** Second Menu Container -->
+            <section class="menu-categorie-container">
+              <!-- second food menu container -->
+
+              <!-- hide on mobile view -->
+              <section class="first-menu-list hide-on-mobile-entree">
+                <!-- jellof rice and smoked Fish -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/jollof-rice-&-smoked-fish.jpg"
+                    class="img"
+                    alt="Jollof Rich and Smoked Fish Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jollof Rice & Smoked Fish</h3>
+                      <p>
+                        Flavorful jollof rice served with perfectly smoked fish.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- eba and egusi soup -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/jellof-delight.png"
+                    class="img"
+                    alt="Party Jellof Rice Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Party Jollof Rice (Veg)</h3>
+                      <p>Vegetarian party jollof, full of rich flavors.</p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>2,800</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pounded yam and edikaikong -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/jellof-delight.png"
+                    class="img"
+                    alt="Jellof Rice Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Party Jellof Rice (Veg)</h3>
+                      <p>Vegetarian party jollof, full of rich flavors.</p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Show on mobile view -->
+              <section class="first-menu-list first-menu view-categories">
+                <!-- jellof rice and fried chicken -->
+                <div class="food-menu first-menu-inner">
+                  <img
+                    src="/assets/images/mobile-entree-jellof-rice.png"
+                    class="img"
+                    alt="Jellof Rice Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jollof Rice & Friend Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- eba and egusi soup -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/eba-and-egusi-soup.png"
+                    class="img"
+                    alt="Eba & Egusi Soup Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Eba & Egusi Soup (Goat Meat)</h3>
+                      <p>
+                        Hearty Egusi soup with goat meat, served with soft Eba.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pounded yam and edikaikong -->
+                <div class="food-menu hide-mobile-edikaikong">
+                  <img
+                    src="/assets/images/pounded-yam-and-edikaikong.jpg"
+                    class="img edikaikong"
+                    alt="Pounded Yam and Edikaikong Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Pounded Yam & Edikaikong</h3>
+                      <p>
+                        Traditional pounded yam with rich, leafy Edikaikong
+                        soup.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,800</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- show on mobile view -->
+                <div class="food-menu show-mobile-edikaikong">
+                  <img
+                    src="/assets/images/mobile-jellof-rice.png"
+                    class="img edikakong"
+                    alt="Pounded Yam and Edikaikong Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jellof Rice & Fried Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="view-categories">View all Categories</a>
+              </section>
+            </section>
+          </div>
+        </section>
+
+        <!-- ===== Swallow & Soup Section ===== -->
+        <section>
+          <div class="entree-section">
+            <h2 class="entree-section-heading">Swallow & Soup</h2>
+
+            <!-- ***** Second Menu Container -->
+            <section class="menu-categorie-container">
+              <!-- second food menu container -->
+              <section class="first-menu-list hide-on-mobile-entree">
+                <!-- amala rice and smoked Fish -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/amala-gbegiri-ewedu.jpg"
+                    class="img"
+                    alt="Amala and Ewedu Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Amala with Gbegiri Ewedu</h3>
+                      <p>
+                        Classic Amala served with Gbegiri (beans) and Ewedu
+                        (jute leaf) soup.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,100</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- eba and egusi soup -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/fufu-okra-soup.jpg"
+                    class="img"
+                    alt="Fufu Okra Soup Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Fufu & Okra Soup (Fish)</h3>
+                      <p>
+                        Light Fufu served with fresh okra soup and tilapia fish.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,300</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pounded yam and edikaikong -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/fufu-okra-soup.jpg"
+                    class="img"
+                    alt="Fufu and Okra Soup Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Fufu & Okra Soup</h3>
+                      <p>
+                        Light Fufu served with fresh okra soup and tilapia fish.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="first-menu-list view-categories">
+                <!-- jellof rice and fried chicken -->
+                <div class="food-menu first-menu-inner">
+                  <img
+                    src="/assets/images/mobile-entree-jellof-rice.png"
+                    class="img"
+                    alt="Jellof Rice Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jollof Rice & Friend Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- eba and egusi soup -->
+                <div class="food-menu">
+                  <img
+                    src="/assets/images/eba-and-egusi-soup.png"
+                    class="img"
+                    alt="Eba & Egusi Soup Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Eba & Egusi Soup (Goat Meat)</h3>
+                      <p>
+                        Hearty Egusi soup with goat meat, served with soft Eba.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- pounded yam and edikaikong -->
+                <div class="food-menu hide-mobile-edikaikong">
+                  <img
+                    src="/assets/images/pounded-yam-and-edikaikong.jpg"
+                    class="img edikaikong"
+                    alt="Pounded Yam and Edikaikong Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Pounded Yam & Edikaikong</h3>
+                      <p>
+                        Traditional pounded yam with rich, leafy Edikaikong
+                        soup.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,800</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- show on mobile view -->
+                <div class="food-menu show-mobile-edikaikong">
+                  <img
+                    src="/assets/images/mobile-jellof-rice.png"
+                    class="img edikakong"
+                    alt="Pounded Yam and Edikaikong Image"
+                  />
+
+                  <div class="heading-para-menu-pricing">
+                    <div class="first-menu-heading-para">
+                      <h3>Jellof Rice & Fried Chicken</h3>
+                      <p>
+                        Our signature jollof rice, served with crispy fried
+                        chicken and plantain.
+                      </p>
+                    </div>
+
+                    <div class="first-menu-pricing">
+                      <small>3,500</small>
+                      <button class="plus-btn">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="view-categories">View all Categories</a>
+              </section>
+            </section>
+          </div>
+        </section>
+
+        <!-- ===== Cta Section ===== -->
+        <section class="cta"></section>
+      </main>
+
+      <!-- ====== Footer Section ====== -->
+      <footer class="footer-footer">
+        <div class="footer">
+          <div class="footer-container">
+            <span class="onboarding-logo footer-logo">Chucks Kitchen</span>
+            <p class="footer-para">
+              Bringing the authentic flavors of Nigerian home cooking to your
+              table, with passion and care.
+            </p>
+          </div>
+
+          <div class="quick-links">
+            <h4>Quick Links</h4>
+            <ul class="footer-nav-links">
+              <li><a href="#"> Home </a></li>
+              <li><a href="#"> Explore </a></li>
+              <li><a href="#"> My Order </a></li>
+              <li><a href="#"> Account </a></li>
+              <li><a href="#"> Contact </a></li>
+            </ul>
+          </div>
+
+          <div class="quick-links">
+            <h4>Contact us</h4>
+            <a class="tel" href="tel:+234 801 234 5678">+234 801 234 5678</a>
+            <a class="mail" href="mailto:hello@chuckskitchen.com"
+              >hello@chuckskitchen.com</a
+            >
+            <p class="contact-address">123 Taste Blvd, Lagos, Nigeria</p>
+          </div>
+
+          <div class="quick-links">
+            <ul class="social-links">
+              <li>
+                <a
+                  class="facebook"
+                  href="https//www.facebook.com"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https//www.Twitter.com" target="_blank">Twitter</a>
+              </li>
+              <li>
+                <a href="https//www.Linkedin.com" target="_blank">Linkedin</a>
+              </li>
+              <li>
+                <a href="https//www.Instagram.com" target="_blank">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-right-reserved">
+          <p class="footer-text">
+            &copy; 2022 Lift Media. All rights reserved.
+          </p>
+          <img
+            src="/assets/images/Up arrow.png"
+            alt="Footer Up Arrow Icon"
+            class="footer-icon"
+          />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
