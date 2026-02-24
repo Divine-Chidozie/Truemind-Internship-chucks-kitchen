@@ -358,7 +358,6 @@ footer {
 }
 
 /* ***** Popular Categories Section ***** */
-
 .categories-heading {
   padding-top: 95px;
   text-align: center;
@@ -658,8 +657,124 @@ img {
   background-color: white;
   margin-top: 65px;
 }
-/* ***** Responsive Media Query ***** */
 
+/* ====== Cart Page Css Styles ===== */
+#cart-page {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0px auto;
+  background-color: #f3f4f6;
+}
+
+#cart-container {
+  margin-top: 60px;
+  font-family: "Island Moments", cursive;
+  background-color: white;
+  box-shadow: 0px 0px 4px whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-heading {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  /* width: 80%; */
+  margin-bottom: 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.cart-heading-paragraph-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.heading-paragrapgh-container,
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px;
+}
+
+.heading-paragrapgh-container h2 {
+  font-size: 19px;
+}
+
+.heading-paragrapgh-container p {
+  font-size: 16px;
+}
+
+.count-container {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.increament-button,
+.decreament-button {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #bdbdbd;
+  color: black;
+}
+
+.count-el {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.price-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.price-tag {
+  color: #ff7a18;
+  font-weight: 600;
+  font-size: 18px;
+}
+.cart-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cancel {
+  width: 15px;
+  height: 15px;
+  border-radius: unset;
+  cursor: pointer;
+}
+
+.add-more-link {
+  margin-bottom: 65px;
+}
+
+.add-more-link a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #1e88e5;
+}
+
+.show-on-mobile-screen-hide-on-desktop {
+  display: none;
+}
+/* ***** Responsive Media Query ***** */
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 22px !important;
