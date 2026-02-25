@@ -340,21 +340,30 @@ footer {
   cursor: pointer;
 }
 
+.search-section {
+  position: absolute;
+  width: 100%;
+}
+
 .search {
-  background-color: white;
+  background-color: #fff;
   box-shadow: 0px 0px 5px rgb(101, 101, 101);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: 50%;
-  padding: 10px;
+  width: 40%;
   margin: 0 auto;
   text-align: center;
-  position: absolute;
-  top: 640px;
-  left: 270px;
+  position: relative;
+  top: -10px;
+  left: 10;
   border-radius: 5px;
+  z-index: 1000;
+}
+
+.search img {
+  width: 25px;
 }
 
 /* ***** Popular Categories Section ***** */
@@ -424,12 +433,14 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   width: 20%;
 }
 
 .special-menu img {
   height: 150px;
+  width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -450,11 +461,11 @@ footer {
 
 .special-menu-price {
   display: flex;
-  /* background-color: pink; */
   justify-content: space-between;
-  gap: 10px;
-  padding: 10px;
   align-items: center;
+  gap: 65px;
+  width: 90%;
+  padding: 10px;
 }
 
 small {
@@ -653,8 +664,6 @@ img {
 
 .cta {
   width: 100%;
-  height: 100px;
-  background-color: white;
   margin-top: 65px;
 }
 
@@ -664,6 +673,7 @@ img {
   max-width: 1200px;
   margin: 0px auto;
   background-color: #f3f4f6;
+  font-size: 18px;
 }
 
 #cart-container {

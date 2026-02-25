@@ -1,35 +1,56 @@
-@media screen and (min-width: 300px) {
-  .sign-in-container {
-    display: block;
-  }
+/* ***** Sign In Media responsive Page ***** */
+
+@media screen and (max-width: 900px) {
   .hero-image {
-    display: none;
+    display: none !important;
   }
 
-  .hero {
-    margin-top: 10px;
+  .sign-in-form {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
   }
 
   .sign-in-text {
-    font-size: 30px;
+    font-size: 14px;
   }
 
-  input {
-    padding: 12px 40px;
-    padding: 7px;
-  }
   .sign-in-heading {
-    font-size: 25px;
-    margin-top: -5px;
+    font-size: 16px;
+  }
+  .hero {
+    margin: 0px auto;
   }
 
-  .google-link,
-  .facebook-link {
-    width: 100%;
+  footer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-image {
+    display: none !important;
   }
 
-  .sign-in-link a {
-    font-size: 12px !important;
+  .sign-in-form {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .sign-in-text {
+    font-size: 14px;
+  }
+
+  .sign-in-heading {
+    font-size: 16px;
+  }
+  .hero {
+    margin: 0px auto;
+  }
+
+  footer {
+    display: none;
   }
 }
 
@@ -170,6 +191,12 @@
     position: relative;
   }
 
+  .search-section {
+    position: absolute;
+    width: 100%;
+    top: 20px;
+  }
+
   .search {
     position: absolute;
     left: 140px;
@@ -272,23 +299,53 @@
 }
 
 /* ***** Media ResponsivenssMenu Listing Male Pgae ***** */
+@media screen and (max-width: 982px) {
+  .featured-nav-bar ul {
+    gap: 50px;
+  }
+
+  .featured-nav-bar ul li a {
+    font-size: 14px;
+  }
+
+  .menu-categorie-container {
+    display: flex;
+  }
+
+  .first-menu-list {
+    flex-wrap: wrap;
+  }
+  .food-menu {
+    flex: 1;
+  }
+
+  .heading-para-menu-pricing {
+    width: 218px;
+  }
+
+  .first-menu-pricing {
+    gap: 80px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .first-menu-list {
     display: flex;
     flex-direction: column; /* stack food items vertically */
-    gap: 15px; /* spacing between each card */
+    gap: 15px;
+    width: 100%;
+    margin: 0px 20px;
   }
 
   .food-menu {
     display: flex;
-    flex-direction: row; /* image left, text + price right */
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background: #fff; /* card background */
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    gap: 10px;
+    gap: 5px;
   }
 
   .food-menu img {
@@ -318,13 +375,13 @@
     text-decoration: none;
     margin: 20px 0px;
     font-size: 16px;
-    color: #1e88e5;
   }
 
   .heading-para-menu-pricing {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    width: 100%;
   }
 
   .first-menu-heading-para {
@@ -383,10 +440,11 @@
 
   .cart {
     border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* padding: 0px; */
   }
 
   .cart-heading-paragraph-container {
@@ -394,7 +452,6 @@
     flex-direction: column;
     flex: 1;
     gap: 5px;
-
     padding: 0;
   }
 
@@ -402,14 +459,16 @@
   .count-container,
   .price-container {
     width: 100%;
-
     padding: 0;
     margin: 0;
   }
 
   .heading-paragrapgh-container h2 {
-    color: orange;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .heading-paragrapgh-container p {
+    font-size: 14px;
   }
 
   .count-container,
@@ -431,6 +490,6 @@
   }
 
   .add-more-link a {
-    font-size: 16px;
+    font-size: 13px;
   }
 }
