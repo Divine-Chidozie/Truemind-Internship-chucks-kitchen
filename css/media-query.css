@@ -24,28 +24,30 @@
     font-size: 16px;
   }
 
-  form {
-    width: 100%;
-    margin: 0 auto !important;
-  }
-
   input {
-    width: 100%;
+    font-size: 16px;
   }
 
   .sign-in-options-container {
-    width: 100%;
     font-size: 12px;
+    /* background-color: green; */
   }
 
-  .sign-in-link a {
-    background-color: red;
-    width: 100%;
-    font-size: 12px;
-  }
-
-  .create-account {
+  .continue-link {
     background-color: green;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .continue-text {
+    font-size: 10px;
+    width: 100%;
+    display: block;
+    color: red !important;
+  }
+  .create-account {
+    /* background-color: green; */
     display: flex;
     font-size: 12px;
     color: red;
