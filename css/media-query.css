@@ -6,8 +6,8 @@
   }
 
   .sign-in-container {
-    background-color: red;
     width: 100%;
+    margin: 50px auto;
   }
   .sign-in-form {
     /* width: 90%; */
@@ -37,29 +37,34 @@
   }
 
   .sign-in-options-container {
-    font-size: 12px;
-    /* background-color: green; */
-  }
-
-  .continue-link {
-    background-color: green;
     display: flex;
+    flex-direction: column;
+    gap: 12px;
     width: 100%;
-    font-size: 15px;
   }
 
-  .continue-text {
-    font-size: 10px;
+  .sign-in-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
     width: 100%;
-    display: block;
-    color: red !important;
+    /* padding: 12px; */
+    text-decoration: none;
+    border-radius: 6px;
   }
+
+  .sign-in-link p {
+    margin: 0;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
   .create-account {
-    /* background-color: green; */
-    display: flex;
-    font-size: 12px;
-    color: red;
+    margin-top: 10px;
     width: 100%;
+    margin: 0px auto;
   }
 
   footer {
