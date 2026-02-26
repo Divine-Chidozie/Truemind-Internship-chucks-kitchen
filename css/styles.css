@@ -88,6 +88,10 @@ body {
   color: rgb(32, 32, 32);
 }
 
+.show-onboarding-on-mobile {
+  display: none;
+}
+
 .onboarding-para {
   color: rgb(32, 32, 32);
   max-width: 500px;
@@ -863,16 +867,31 @@ img {
   }
 
   .onboarding-hero {
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
 
   .onboarding-short-description {
     display: flex !important;
     flex-wrap: nowrap !important;
-    flex-direction: row !important;
+
+    flex-direction: column;
+    gap: 30px;
   }
 
+  .description-container {
+    border-radius: 7px;
+    background-color: #f3f4f6;
+  }
+
+  .onboarding-icon {
+    width: 70px;
+  }
+
+  .onboarding-h1 {
+    font-size: 22px !important;
+    width: 50%;
+  }
   .onboarding-link {
     margin-top: 10px;
   }
@@ -883,7 +902,37 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  .footer {
+  /* Hide Onboarding image and sign in link on mobile device */
+  .hide-onboarding-on-mobile {
+    display: none;
+  }
+
+  /* Show Onboarding image and sign in link on mobile device */
+  .show-onboarding-on-mobile {
+    display: flex;
+  }
+
+  .mobile-view-sign {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .mobile-view-home-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .onborading-privacy,
+  .footer,
+  .footer-right-reserved {
+    display: none;
     flex-direction: column;
+  }
+
+  footer {
+    display: none;
   }
 }

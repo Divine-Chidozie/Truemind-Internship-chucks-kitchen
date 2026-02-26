@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <section class="onboarding-container">
-        <div class="onboarding-image-container">
+        <div class="onboarding-image-container hide-onboarding-on-mobile">
           <img
             class="onboarding-image"
             src="assets/images/onboarding.png"
@@ -24,11 +24,36 @@
         </div>
 
         <div class="onboarding-form-container">
-          <div class="onboarding-sign-in">
+          <div class="onboarding-sign-in hide-onboarding-on-mobile">
             <span class="onboarding-logo">Chucks Kitchen</span>
             <a href="pages/sign-in-screen.html" class="secondary-btn"
               >Sign Up</a
             >
+          </div>
+
+          <!--Show  OnBorading  Image in Mobile -->
+          <div class="onboarding-image-container show-onboarding-on-mobile">
+            <img
+              class="onboarding-image"
+              src="assets/images/mobile-onboarding-image.png"
+              alt="onboarding image"
+            />
+          </div>
+
+          <!--Show  OnBorading  Sign in Mobile -->
+          <div
+            class="onboarding-sign-in show-onboarding-on-mobile mobile-view-sign"
+          >
+            <a href="pages/sign-in-screen.html" class="secondary-btn"
+              >Sign Up</a
+            >
+          </div>
+
+          <!--Show  OnBorading Home-Link in Mobile -->
+          <div
+            class="onboarding-sign-in show-onboarding-on-mobile mobile-view-home-link"
+          >
+            <span class="onboarding-logo">Chucks Kitchen</span>
           </div>
 
           <div class="onboarding-hero">
