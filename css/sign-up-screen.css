@@ -76,9 +76,14 @@ body {
   font-family: "Island Moments", cursive;
   color: #ff7a18;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.hero a {
+  text-decoration: none;
 }
 
 .sign-in-heading {

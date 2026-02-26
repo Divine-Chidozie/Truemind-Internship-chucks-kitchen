@@ -446,14 +446,16 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-
     gap: 5px;
     padding-left: 10px;
   }
 
   .first-menu-heading-para h3 {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
+    margin-top: 5px;
+
+    width: 100%;
   }
 
   .first-menu-heading-para p {
@@ -522,11 +524,11 @@
   }
 
   .heading-paragrapgh-container h2 {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .heading-paragrapgh-container p {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .count-container,
@@ -539,12 +541,12 @@
   }
 
   .price-tag {
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .cancel {
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
   }
 
   .add-more-link a {
