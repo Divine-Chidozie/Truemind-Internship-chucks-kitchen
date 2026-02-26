@@ -142,8 +142,9 @@
     top: 60px;
     right: 0;
     width: 100%;
-    background: white;
-    display: none; /* hide by default */
+    background: whites;
+
+    display: none;
   }
 
   .featured-nav-bar.active {
@@ -183,7 +184,7 @@
 
   .featured-nav-bar ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 
     padding: 20px 0;
   }
@@ -199,7 +200,17 @@
 
   /* Hide login button on mobile */
   .secondary-login-btn {
-    display: none;
+    /* display: flex; */
+  }
+
+  .login-btn {
+    background-color: #ff7a18;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+    width: 40%;
+    margin: 0px auto;
+    display: block;
   }
 
   /* feature-meal-page full width */
@@ -359,7 +370,7 @@
 /* ***** Media ResponsivenssMenu Listing Male Pgae ***** */
 @media screen and (max-width: 982px) {
   .featured-nav-bar ul {
-    gap: 50px;
+    /* gap: 50px; */
   }
 
   .featured-nav-bar ul li a {

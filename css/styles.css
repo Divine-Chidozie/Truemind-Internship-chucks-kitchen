@@ -104,7 +104,9 @@ body {
   gap: 15px;
   margin-bottom: 40px;
 }
-
+.login-btn {
+  display: none;
+}
 .description-container {
   display: flex;
   gap: 10px;
@@ -554,9 +556,9 @@ button {
 }
 
 .active {
-  background-color: #ffe1ca;
+  /* background-color: #ffe1ca; */
   padding: 10px;
-  border-inline-start-color: green; /* rememeber to add broder left color here*/
+  /* border-inline-start-color: green; */
 }
 
 .menu-categoeries-list {
