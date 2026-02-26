@@ -469,7 +469,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 65px;
+  gap: 20px;
   width: 90%;
   padding: 10px;
 }
